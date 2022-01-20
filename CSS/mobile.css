@@ -1,0 +1,437 @@
+/* mobile phone start */
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width:500px) {
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Poppins:wght@200&family=Roboto:wght@300;500&display=swap');
+    header{
+        width: 360px;
+        height: 669px;
+        background-color: #2D25A0;
+    }
+    
+    .boddy-pert{
+        margin-left: 15px;
+    }
+    nav a{
+        text-decoration: none;
+        color: #ffffff;
+        
+
+    }
+    nav button{
+        width: 90px;
+        height: 33px;
+        color: #ffffff;
+        background-color: #E02C6D;
+        padding: 7.47253px 17.9341px;
+    }
+    nav button.fasfas.fa-arrow-right{
+        margin-right: 5px;
+    }
+    .header-pert{
+        position: relative;
+        border: 1px solid #2D25A0;
+        height: 44px;
+        
+    
+
+    }
+    .navbar{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 33px;
+        
+        
+    }
+    .banar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .title h1{
+        width: 278px;
+        height: 138px;
+        font-family: 'Oswald', sans-serif;
+        color: #ffffff;
+        font-size: 36px;
+        line-height: 50px;
+        margin: 0;
+        margin-top: 52px;
+        margin-bottom: 30px;
+        margin-left: 16px;
+
+    }
+    .title button{
+        position: absolute;
+        width: 168px;
+        height: 44px;
+        font-size: 16px;
+        padding: 10px, 24px, 10px, 24px;
+        color: #ffffff;
+        background-color: #E02C6D;
+        margin-left: 16px;
+       
+        
+    }
+   
+    .main-banar img{
+       
+        width: 329px;
+        height: 269px;
+        margin-top: 80px;
+        margin-left: 15px;
+       
+        
+    }
+    /* player section stert */
+    .container{
+        margin-top: 47px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        ;
+    }
+    .top-players{
+        width: 300px;
+        height: 426px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #ffffff;
+        padding: 15px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        margin-top: 24px;
+      
+    }
+    .player img{
+        width: 300px;
+        height: 256px;
+        margin-bottom: 16px;
+    }
+    .player-details{
+        width: 300px;
+        height: 254px;
+    }
+    .player-details p{
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;                  font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    .player-details h2{
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    /* footer pert stert */
+    footer{
+        margin-top: 60px;
+    }
+    .paragraph{
+        width: 330px;
+        height: 299px;
+    }
+    .paragraph h1{
+        width: 292px;
+        height: 80px;
+        size: 30px;
+        line-height: 40px;
+        margin-bottom: 8px;
+    }
+
+    .paragraph p{
+        size: 16px;
+        line-height: 28px;
+        height: 143px;
+
+    }
+
+    .paragraph button{
+
+        height: 44px;
+        width: 173px;
+        background-color: #E02C6D;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .match img{
+        width: 328px;
+        height: 248px;
+        margin-top: 29px;
+    }
+    .icon img{
+        width: 275px;
+        margin-top: 43px;
+        
+       
+
+    }
+    .logo{
+        width: 170px;
+        height: 32px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 80px;
+        
+
+    }
+    .fab{
+        color: #969BAB;
+    }
+    .far{
+        color: #969BAB;
+    }
+    .coppy{
+        width: 236px;
+        height: 31px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 45px;
+        margin-bottom: 160px;
+
+    }
+}
+@media (min-width:501px) {
+    *{
+        margin: 0;
+        padding: 0;
+         
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Poppins:wght@500&family=Roboto:wght@300;500&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Poppins:wght@200;500&family=Roboto:wght@300;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Poppins:wght@200;500;700&family=Roboto:wght@300;500&display=swap');
+    
+    /* header section stert */
+    header{
+        position: relative;
+         background: #2D25A0;
+        height: 677px;
+       
+    }
+    
+        
+    
+    
+    .navbar{
+        display: flex;
+        /* width: 1162px; */
+        height: 44px;
+        justify-content: space-between;
+        margin: auto;
+        /* margin-top: 42px; */
+        
+      
+       
+    }
+    nav{
+        margin-top: 42px;
+        margin-bottom: 67px;
+    }
+    nav a{
+        text-decoration: none;
+        size: 16px;
+        color: #FFFFFF;
+        margin-right: 30px;
+    }
+    
+    .banar{
+        display: flex;
+        justify-content: center;
+        margin-top: 67px;
+        margin-bottom: 23px;
+    }
+    .main-banar{
+        overflow: hidden;
+    }
+    .title{
+       position: relative;
+    }
+    
+    .title h1{
+        font-family: 'Oswald', sans-serif;
+        /* width: 485px; */
+        /* height: 230px; */
+        size: 64px;
+        /* line-height: 80px; */
+        color: #FFFFFF;
+        margin-top: 127px;
+        margin-bottom: 8px;
+    }
+    .fas{
+        padding-left: 8px;
+    }
+    
+    
+    button{
+        width: 168px;
+        height: 44px;
+        padding:10px, 24px, 10px, 24px;
+        color: #ffffff;
+        background: #E02C6D;
+    }
+    .fas.fa-arrow-right{
+        margin-right: 8px;
+    }
+    .main-banar img{
+        width: 556px;
+        height: 438px;
+        margin-bottom: 86px;
+        margin-left: 102px;
+        /* margin-top: 65px; */
+        transition: width 4s;
+        overflow: hidden;
+    }
+    header:hover .main-banar img{
+        width: 650px;
+       
+       
+    }
+    /* header section end */
+    /* player setion start */
+    
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    .player-info{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       width: 1050px;
+       margin-top: 43px;
+       
+       
+    }
+    .top-players{
+       display: grid;
+       justify-content: center;
+       align-items: center;
+        width: 300px;
+        height: 474px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        padding: 15px;
+        margin-top: 27px;
+      
+        
+        
+        
+        
+        
+    
+    }
+    .player{
+        margin: 0;
+       
+    }
+    .player img{
+        width: 300px;
+        height:256px;
+    }
+    .player-details{
+        width: 300px;
+    }
+    h2{
+        margin: 0;
+        margin-top: -16px;
+        font-family: 'Oswald', sans-serif;
+    }
+    p{
+        width: 300px;
+        height: 104px;
+        margin: 0;
+        margin-top: 10px;
+        font-family: 'Oswald', sans-serif;
+    }
+    /* footer section start */
+    footer{
+        margin-top: 165px;
+    }
+    .top-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .paragraph{
+        width: 469px;
+        height: 300px;
+       
+        margin-right: 66px;
+    }
+    .paragraph h1{
+        width: 479px;
+        line-height: 60px;
+        size: 48px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    
+    .paragraph p{
+        width: 400px;
+       margin-top: 0;
+       margin-bottom: 24px;
+        
+    
+    }
+    .match img{
+        width: 567px;
+        height: 427px;
+        
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .football{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 483px;
+        height: 213px;
+        margin-top: 158px;
+        
+       
+    }
+    
+    
+    .icon img{
+        width: 483px;
+        height: 110px;
+       
+    }
+    .logo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 170px;
+        height: 32px;
+        margin-left: 100px;
+    }
+    
+    .fab{
+        color: #969BAB;
+    }
+    .far{
+        color: #969BAB;
+    }
+    .coppy{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .coppy p{
+        padding-left: 200px;
+    }
+    
+} 
